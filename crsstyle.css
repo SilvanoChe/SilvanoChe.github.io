@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body{
+    
+    background-color: rgba(100, 125, 134, 0.671);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+}
+.main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 1000px;
+    max-width:1000px;
+    box-shadow: 10px 15px 5px; 
+    border-radius: 10px;
+    margin: 50px;
+    position:relative;
+   
+}
+
+.firstchilddiv{
+    background-color: rgba(75, 111, 121, 0.774);
+    padding: 40px;
+    position:relative;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.name_image{
+    position: relative;
+    display: block;
+    align-items:center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.575);
+ 
+}
+
+
+.myimage{
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 25px;
+    
+ 
+}
+
+img{
+    width: 100%; 
+    height:100%;
+    box-shadow: 5px 3px 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    
+
+}
+
+ h2{
+    color:rgb(255, 255, 255);
+    font-size: 1em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+
+h2 span{
+    font-size: 0.7em;
+    font-weight: 300
+
+}
+
+.maincontactinfo{
+    padding-top: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.575);
+    padding-bottom: 20px;
+}
+
+.contacttitle{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+ul{
+    position: relative;
+
+}
+
+li{    
+        list-style: none;
+        position: relative;
+        margin: 10px 0;
+        cursor: pointer;
+}
+/*This span would not affect the icons anymore even if they're inside the  span since the icon has already been already designed specifically below. It will onluy affect the text.*/
+span{  
+    color:rgb(255, 255, 255);
+    font-weight: 300;
+
+}
+
+.icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgba(8, 29, 36, 0.774);
+}
+
+h5{
+    color: rgba(9, 30, 37, 0.774);
+    font-size: .90em;
+}
+
+h4{
+    color: rgba(196, 235, 240, 0.842);
+    margin-left: 15px;
+    font-size: 1em;
+    font-weight: 500;
+}
+p{
+    color: rgba(255, 255, 255, 0.842);
+    margin-left: 15px;
+    font-size: .90em; 
+}
+
+.educationbox{
+    display: flex;
+    direction: row;
+}
+
+a{
+    color:rgb(0, 0, 0);
+    margin-bottom: 1px;
+}
+
+a:hover{
+    color:rgba(16, 46, 46, 0.719)
+}
+
+
+
+
+
+
+/*----------------------START SECOND DIV----------*/
+.secondchilddiv{
+   
+    padding: 40px;
+    background-color:rgba(255, 255, 255, 0.842) ;
+    position: relative;
+    border-radius:  0px 10px 10px 0px;
+    display:block;
+ }
+
+
+.profile h2{
+    width: 100%;
+    background-color: rgb(189, 176, 176);
+    margin-top: 50px;
+    border: 3px rgb(0, 0, 0);
+    font-size: 1em;
+    letter-spacing: 1px;
+    transform: uppercase;
+    font-size: 1.12em
+
+}
+
+.text2{
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(0, 0, 0);
+    display: block; 
+    margin-top: 5px;
+    
+}
+.percentdiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(40, 158, 158, 0.719);
+}
+
+.secboxP{
+    color: rgba(8, 29, 36, 0.774);
+    font-size: 1em;
+    margin-top: 15px;
+    position: relative;
+    
+}
+
+.skillbox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    position: relative;
+}
+
+.insideskillbox{
+    background-color: rgba(189, 176, 176, 0.836);
+    margin-right: 2px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+    width: 150px;
+    position: relative;
+}
+
+.textskills{
+    background-color: rgba(189, 176, 176, 0.836);
+    width: 100%;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+}
+
+.pskills{
+    color: rgba(8, 29, 36, 0.774);
+    position: relative;
+}
+
+@media (max-width: 1000px) {
+    .main {
+        margin: 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
