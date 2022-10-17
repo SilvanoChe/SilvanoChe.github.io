@@ -150,6 +150,10 @@ p{
     direction: row;
 }
 
+.mediaicon{
+    margin-top: 20px;
+
+}
 a{
     color:rgb(0, 0, 0);
     margin-bottom: 1px;
@@ -216,14 +220,14 @@ a:hover{
     
 }
 
-.skillbox{
+.experiencebox{
     display: flex;
     flex-direction: row;
     margin-top: 15px;
     position: relative;
 }
 
-.insideskillbox{
+.insideexpbox{
     background-color: rgba(189, 176, 176, 0.836);
     margin-right: 2px;
     border-radius: 5px 0px 0px 5px;
@@ -232,17 +236,45 @@ a:hover{
     position: relative;
 }
 
-.textskills{
+.textexp{
     background-color: rgba(189, 176, 176, 0.836);
     width: 100%;
     border-radius: 0px 5px 5px 0px;
     position: relative;
 }
+.future{
+    font-size: .70em;
+    font-weight: 20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.pskills{
+.pexp{
     color: rgba(8, 29, 36, 0.774);
     position: relative;
 }
+
+
+.iconhobbies{
+    width: 100px;
+    height: 50px;
+    display:inline-block;
+    background-color: rgba(75, 111, 121, 0.774);
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 4px;
+    
+}
+
+.iconhobbies i{
+    padding: 10px;
+   
+    
+}
+
+
+
+
 
 @media (max-width: 1000px) {
     .main {
